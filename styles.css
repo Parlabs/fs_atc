@@ -15,9 +15,9 @@ body {
 }
 
 .input_01 {
-    width: 266px;
-    height: 48px;
-    border: solid black 2px;
+    width: 216px;
+    height: 38px;
+    border: solid black 1.25px;
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
