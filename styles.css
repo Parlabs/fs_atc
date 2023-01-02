@@ -22,7 +22,7 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-#route {
+.route {
   margin-left: 25px;
   margin-right: 139px;
   width: 596px;
