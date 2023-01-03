@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FS Air Traffic Control</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
 
@@ -36,10 +37,22 @@
         <textarea id="route" placeholder="Ex. KLAX DOCKR ELYME CMENT PONND JEDDD CWARD BUOYE TORIE MZB PALOS REEBO KSAN" style="margin-left: 25px;margin-right: 139px;width: 596px;height:100px;border: solid black 1.25px;border-radius: 10px;box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;"></textarea>
         <input type="text" id="dep_gate" class="input_01" style="margin-right: 63px;" placeholder="Ex. 11B">
         <input type="text" id="arr_gate" class="input_01" placeholder="Ex. 29"><br><br><br>
-        <button id="fly" style="align-text:center;background-color:#3770C6;color: white;border:none;border-radius:10px;width: 216px;height:38px;margin-left: 581px;font-size:25px;box-shadow:rgba(149,157,165,0.2) 0px 8px 24px;">Fly</button>
+        <button id="fly" type="submit" style="align-text:center;background-color:#3770C6;color: white;border:none;border-radius:10px;width: 216px;height:38px;margin-left: 581px;font-size:25px;box-shadow:rgba(149,157,165,0.2) 0px 8px 24px;">Fly</button><br><br><br>
       </form>
     </div>
 
+    <div class="main_ui ">
+      <select>
+        <option value="atis">ATIS</option>
+        <option value="clearance">Clearance</option>
+        <option value="ground">Ground</option>
+        <option value="tower">Tower</option>
+        <option value="departure">Departure</option>
+        <option value="center">Center</option>
+        <option value="approach">Approach</option>      
+      </select><br><br><br><br><br>
+      <button><i class="fa-solid fa-circle-microphone"></i></button>
+    </div>
 	  <script src="app.js"></script>
   </body>
 </html>
