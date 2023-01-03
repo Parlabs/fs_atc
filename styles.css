@@ -21,3 +21,12 @@ body {
     border-radius: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
+#fly {
+  justify-content: center;
+  align-items: center;
+  background-color: #3770C6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
