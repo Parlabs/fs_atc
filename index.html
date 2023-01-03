@@ -17,28 +17,29 @@
         <label style="margin-right: 310px;">Airline</label>
         <label style="margin-right: 240px;">Callsign</label>
         <label>Flight Number</label><br><br>
-        <input type="text" class="input_01" style="margin-right: 164px; margin-left: 25px;" placeholder="Ex. N08991">
-        <input type="text" class="input_01" style="margin-right: 139px;" placeholder="Ex. JetBlue">
-        <input type="text" class="input_01" style="margin-right: 63px;" placeholder="Ex. JBU">
-        <input type="text" class="input_01" placeholder="Ex. 2124"><br><br><br>
+        <input type="text" id="tail_number" class="input_01" style="margin-right: 164px; margin-left: 25px;" placeholder="Ex. N08991">
+        <input type="text" id="airline" class="input_01" style="margin-right: 139px;" placeholder="Ex. JetBlue">
+        <input type="text" id="callsign" class="input_01" style="margin-right: 63px;" placeholder="Ex. JBU">
+        <input type="text" id="flight_number" class="input_01" placeholder="Ex. 2124"><br><br><br>
         <label style="margin-right: 290px; margin-left: 25px;">Cruise Altitude</label>
         <label style="margin-right: 275px;">Cruise Speed</label>
         <label style="margin-right: 31px;">Average Take-off And Landing Speed</label>
         <label>Average Vertical Speed</label><br><br>
-        <input type="text" class="input_01" style="margin-right: 164px; margin-left: 25px;" placeholder="Ex. FL350">
-        <input type="text" class="input_01" style="margin-right: 139px;" placeholder="Ex. 320kts">
-        <input type="text" class="input_01" style="margin-right: 63px;" placeholder="Ex. 145kts">
-        <input type="text" class="input_01" placeholder="Ex. 2250ft/min"><br><br><br>
+        <input type="text" id="altitude" class="input_01" style="margin-right: 164px; margin-left: 25px;" placeholder="Ex. FL350">
+        <input type="text" id="speed" class="input_01" style="margin-right: 139px;" placeholder="Ex. 320kts">
+        <input type="text" id="ta_speed" class="input_01" style="margin-right: 63px;" placeholder="Ex. 145kts">
+        <input type="text" id="vs
+        " class="input_01" placeholder="Ex. 2250ft/min"><br><br><br>
         <label style="margin-right: 716px; margin-left: 25px;">Route</label>
         <label style="margin-right: 180px;margin-bottom: -62px;">Departure Gate</label>
         <label style="margin-bottom: -62px;">Arrival Gate</label><br><br>
         <textarea id="route" placeholder="Ex. KLAX DOCKR ELYME CMENT PONND JEDDD CWARD BUOYE TORIE MZB PALOS REEBO KSAN" style="margin-left: 25px;margin-right: 139px;width: 596px;height:100px;border: solid black 1.25px;border-radius: 10px;box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;"></textarea>
-        <input type="text" class="input_01" style="margin-right: 63px;" placeholder="Ex. 11B">
-        <input type="text" class="input_01" placeholder="Ex. 29"><br><br><br>
+        <input type="text" id="dep_gate" class="input_01" style="margin-right: 63px;" placeholder="Ex. 11B">
+        <input type="text" id="arr_gate" class="input_01" placeholder="Ex. 29"><br><br><br>
         <button id="fly" style="align-text:center;background-color:#3770C6;color: white;border:none;border-radius:10px;width: 216px;height:38px;margin-left: 581px;font-size:25px;box-shadow:rgba(149,157,165,0.2) 0px 8px 24px;">Fly</button>
       </form>
     </div>
 
-	  <script lang="ts" src="app.js"></script>
+	  <script src="app.js"></script>
   </body>
 </html>

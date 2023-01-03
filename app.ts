@@ -1,1 +1,0 @@
-document.getElementById("fly").innerHTML = "Click Me!"
