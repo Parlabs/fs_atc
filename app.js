@@ -23,11 +23,7 @@ document.getElementsById("fly").addEventListener("click", function(e) {
         const response = await fetch(api_url);
 
         const data = await response.json();
-
-        const msg = new SpeechSynthesisUtterance();
-        msg.text = data.resulsts;
-
-        
+        console.log(data.results);
       }
     }
   });
