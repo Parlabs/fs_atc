@@ -1,4 +1,4 @@
-document.getElementsById("fly").addEventListener("click", function(e) {
+document.getElementById("fly").addEventListener("click", function(e) {
 
   e.preventDefault();
 
