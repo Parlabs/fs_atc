@@ -8,10 +8,7 @@ body {
   font-size: 50px;
   text-align: center;
   font-family: "Cabin", sans-serif;
-}
-
-.title span {
-  color: #3770C6;
+  color: orange;
 }
 
 .input_01 {
